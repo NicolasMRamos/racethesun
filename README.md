@@ -2,6 +2,8 @@
 
 ## Description
 
+This group project consists on an game I developed for the Laboratório de Design e Teste de Software (LDTS) class in my second year, first semester in FEUP.
+
 Race the Sun is an infinite game that challenges your reaction capabilities. In command of a small racing ship, the objective of the player is to go as far as possible without crashing into the obstacles in the way.
 
 It's based on the game Race the Sun, developed by Flippfly. The game is playable in mobile and PC, in Steam.
