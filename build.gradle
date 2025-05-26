@@ -1,0 +1,41 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'net.ltgt.errorprone' version '3.1.0'
+    id 'info.solidsoft.pitest' version '1.15.0'
+}
+
+group 'com.aor.hero'
+version '1.0'
+
+repositories {
+    mavenCentral()
+}
+
+pitest {
+    junit5PluginVersion = '1.2.0'
+    pitestVersion = '1.15.0'
+    targetClasses = ['com.aor.hero.*']
+    excludedClasses = ['com.aor.hero.Application', 'com.aor.hero.Game']
+    excludedTestClasses = ['com.aor.hero.GameTest']
+    jvmArgs = ['-Xmx4G']
+}
+
+application {
+    mainClass.set('com.aor.hero.Application')
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.6.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.6.0'
+    testImplementation 'org.mockito:mockito-core:3.7.7'
+    testImplementation 'net.jqwik:jqwik:1.5.1'
+    errorprone "com.google.errorprone:error_prone_core:2.20.0"
+    implementation group: 'com.googlecode.lanterna', name: 'lanterna', version: '3.1.1'
+}
+
+test {
+    useJUnitPlatform {
+        includeEngines('junit-jupiter', 'jqwik')
+    }
+}

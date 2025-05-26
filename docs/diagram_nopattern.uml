@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>D:/Uni/project-t13g01/src/main/java/com/aor/hero</OriginalElement>
+  <nodes>
+    <node x="-65.0" y="566.0">com.aor.hero.model.game.elements.Element</node>
+    <node x="-144.5" y="506.0">com.aor.hero.model.game.raycaster.Raycast</node>
+    <node x="-211.0" y="1406.0">com.aor.hero.controller.game.HeroController</node>
+    <node x="1.5" y="206.0">com.aor.hero.gui.KeyHandler</node>
+    <node x="-95.0" y="866.0">com.aor.hero.model.menu.Menu</node>
+    <node x="-348.0" y="746.0">com.aor.hero.viewer.game.ElementViewer</node>
+    <node x="-43.5" y="686.0">com.aor.hero.model.game.elements.Camera</node>
+    <node x="-156.5" y="206.0">com.aor.hero.model.game.arena.Arena</node>
+    <node x="-223.0" y="926.0">com.aor.hero.sprite.SpriteLoader</node>
+    <node x="-396.0" y="66.0">com.aor.hero.Game</node>
+    <node x="-112.5" y="746.0">com.aor.hero.model.game.elements.Hero</node>
+    <node x="-61.0" y="1226.0">com.aor.hero.viewer.menu.MenuViewer</node>
+    <node x="-17.0" y="926.0">com.aor.hero.viewer.game.RectViewer</node>
+    <node x="-233.5" y="1046.0">com.aor.hero.model.menu.MainMenu</node>
+    <node x="-68.0" y="146.0">com.aor.hero.gui.GUI</node>
+    <node x="42.0" y="1106.0">com.aor.hero.model.menu.DeathMenu</node>
+    <node x="-334.5" y="566.0">com.aor.hero.model.game.arena.RandomArenaBuilder</node>
+    <node x="-57.0" y="1046.0">com.aor.hero.viewer.Viewer</node>
+    <node x="-303.0" y="326.0">com.aor.hero.model.game.arena.ArenaBuilder</node>
+    <node x="-404.5" y="926.0">com.aor.hero.model.Vector2</node>
+    <node x="-394.5" y="1286.0">com.aor.hero.controller.game.GameController</node>
+    <node x="-95.0" y="1466.0">com.aor.hero.controller.game.ArenaController</node>
+    <node x="-277.5" y="146.0">com.aor.hero.Application</node>
+    <node x="-171.0" y="686.0">com.aor.hero.model.game.elements.Rect</node>
+    <node x="33.5" y="1406.0">com.aor.hero.controller.game.RayController</node>
+    <node x="-173.5" y="1286.0">com.aor.hero.controller.menu.MenuController</node>
+    <node x="-102.0" y="326.0">com.aor.hero.gui.LanternaGUI</node>
+    <node x="8.0" y="506.0">com.aor.hero.model.game.raycaster.Raycaster</node>
+    <node x="-395.0" y="386.0">com.aor.hero.states.MenuState</node>
+    <node x="-391.0" y="206.0">com.aor.hero.states.State</node>
+    <node x="-130.0" y="1106.0">com.aor.hero.model.game.grid.Grid</node>
+    <node x="-342.0" y="1466.0">com.aor.hero.controller.game.CameraController</node>
+    <node x="32.0" y="386.0">com.aor.hero.model.game.raycaster.Ray</node>
+    <node x="50.0" y="746.0">com.aor.hero.model.game.elements.Line</node>
+    <node x="-318.5" y="866.0">com.aor.hero.viewer.game.HeroViewer</node>
+    <node x="-389.5" y="1106.0">com.aor.hero.controller.Controller</node>
+    <node x="38.0" y="1286.0">com.aor.hero.viewer.game.GameViewer</node>
+    <node x="-196.0" y="386.0">com.aor.hero.states.GameState</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="com.aor.hero.model.game.raycaster.Raycaster" target="com.aor.hero.model.game.raycaster.Ray" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.game.elements.Rect" target="com.aor.hero.model.game.elements.Element" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-129.0" y="660.0" />
+      <point x="11.0" y="660.0" />
+      <point x="11.0" y="620.0" />
+      <point x="19.0" y="620.0" />
+      <point x="28.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.game.raycaster.Raycast" target="com.aor.hero.model.game.raycaster.Ray" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-89.0" y="480.0" />
+      <point x="71.0" y="480.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.controller.game.HeroController" target="com.aor.hero.controller.game.GameController" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-129.0" y="1380.0" />
+      <point x="-189.0" y="1380.0" />
+      <point x="-189.0" y="1260.0" />
+      <point x="-309.0" y="1260.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.game.elements.Hero" target="com.aor.hero.model.game.elements.Element" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-69.0" y="660.0" />
+      <point x="11.0" y="660.0" />
+      <point x="11.0" y="620.0" />
+      <point x="19.0" y="620.0" />
+      <point x="28.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.menu.DeathMenu" target="com.aor.hero.model.menu.Menu" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="111.0" y="1020.0" />
+      <point x="-49.0" y="1020.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.controller.game.ArenaController" target="com.aor.hero.controller.game.GameController" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-9.0" y="1380.0" />
+      <point x="-189.0" y="1380.0" />
+      <point x="-189.0" y="1260.0" />
+      <point x="-309.0" y="1260.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="com.aor.hero.viewer.game.HeroViewer" target="com.aor.hero.viewer.game.ElementViewer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.states.MenuState" target="com.aor.hero.states.State" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.game.arena.RandomArenaBuilder" target="com.aor.hero.model.game.arena.ArenaBuilder" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.controller.game.GameController" target="com.aor.hero.controller.Controller" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.game.elements.Line" target="com.aor.hero.model.game.elements.Element" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="91.0" y="660.0" />
+      <point x="11.0" y="660.0" />
+      <point x="11.0" y="620.0" />
+      <point x="19.0" y="620.0" />
+      <point x="28.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.viewer.menu.MenuViewer" target="com.aor.hero.viewer.Viewer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.controller.game.RayController" target="com.aor.hero.controller.game.GameController" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="111.0" y="1380.0" />
+      <point x="-189.0" y="1380.0" />
+      <point x="-189.0" y="1260.0" />
+      <point x="-309.0" y="1260.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="com.aor.hero.controller.menu.MenuController" target="com.aor.hero.controller.Controller" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-89.0" y="1240.0" />
+      <point x="-309.0" y="1240.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.viewer.game.ElementViewer" target="com.aor.hero.model.game.elements.Element" relationship="DEPENDENCY">
+      <point x="0.0" y="-14.0" />
+      <point x="-249.0" y="640.0" />
+      <point x="-37.0" y="640.0" />
+      <point x="-28.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.controller.game.CameraController" target="com.aor.hero.controller.game.GameController" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-249.0" y="1380.0" />
+      <point x="-189.0" y="1380.0" />
+      <point x="-189.0" y="1260.0" />
+      <point x="-309.0" y="1260.0" />
+      <point x="0.0" y="-14.0" />
+    </edge>
+    <edge source="com.aor.hero.states.GameState" target="com.aor.hero.states.State" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-129.0" y="300.0" />
+      <point x="-329.0" y="300.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.menu.MainMenu" target="com.aor.hero.model.menu.Menu" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="-169.0" y="1020.0" />
+      <point x="-49.0" y="1020.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.viewer.game.GameViewer" target="com.aor.hero.viewer.Viewer" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="111.0" y="1200.0" />
+      <point x="11.0" y="1200.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.model.game.elements.Camera" target="com.aor.hero.model.game.elements.Element" relationship="GENERALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="11.0" y="620.0" />
+      <point x="19.0" y="620.0" />
+      <point x="28.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.gui.LanternaGUI" target="com.aor.hero.gui.GUI" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+    <edge source="com.aor.hero.viewer.game.RectViewer" target="com.aor.hero.viewer.game.ElementViewer" relationship="REALIZATION">
+      <point x="0.0" y="-14.0" />
+      <point x="51.0" y="840.0" />
+      <point x="-249.0" y="840.0" />
+      <point x="0.0" y="14.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="0.6167127071823204" showDependencies="false" x="-98.0" y="790.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
